@@ -1,0 +1,40 @@
+{
+  "name": "inch-storelink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmp-sbd/wonder-ep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmp-sbd/wonder-ep/issues"
+  },
+  "homepage": "https://github.com/wmp-sbd/wonder-ep#readme",
+  "dependencies": {
+    "@wmp-sbd/browser": "^1.1.81",
+    "@wmp-sbd/config": "^1.1.5",
+    "@wmp-sbd/defer": "^1.0.1",
+    "@wmp-sbd/im": "^0.1.7",
+    "@wmp-sbd/logger-factory": "^1.0.7",
+    "@wmp-sbd/object-helper": "^1.0.9",
+    "aws-sdk": "^2.270.1",
+    "cheerio": "^1.0.0-rc.2",
+    "cron": "^1.3.0",
+    "request": "^2.87.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1"
+  }
+}

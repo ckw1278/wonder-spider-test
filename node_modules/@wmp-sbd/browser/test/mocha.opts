@@ -1,0 +1,5 @@
+--harmony
+--reporter spec
+--recursive
+--require ./test/bootstrap.js
+--timeout 200000

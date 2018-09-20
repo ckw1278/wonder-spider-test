@@ -1,0 +1,49 @@
+{
+  "cpc": {
+    "uri": "http://13.209.66.232:8080"
+  },
+
+  "inch": {
+    "api": {
+      "uri": "http://api-s.inch.me"
+    },
+    "papi": {
+      "uri": "http://papi-s.inch.me"
+    }
+  },
+
+  "s3": {
+    "region": "ap-northeast-2",
+    "bucket": "ep-s.inch.me",
+    "endpoint" : "http://ep-s.inch.me/etl/"
+  },
+
+  "logger" : {
+    "file": {
+      "level" : "info"
+    },
+    "console" : {
+      "level" : "debug"
+    },
+    "cloudWatch" : {
+      "level" : "error",
+      "region" : "ap-northeast-2"
+    }
+  },
+
+  "cloudWatch": {
+    "region" : "ap-northeast-2"
+  },
+
+  "aws" : {
+    "accessKeyId" : "",
+    "secretAccessKey" : ""
+  },
+
+  "linkprice": {
+    "api": {
+      "uri": "https://api.linkprice.com/ci/product/data/A100627856"
+    },
+    "stores": ["11st", "tmon"]
+  }
+}

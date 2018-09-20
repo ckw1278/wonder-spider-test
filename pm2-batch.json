@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {
+      "name": "inch-storelink-batch-availability",
+      "script": "./batch/seller-availability-batch.js",
+      "node_args": "--harmony"
+    },
+    {
+      "name": "inch-storelink-batch-sellers",
+      "script": "./batch/sellers-batch.js",
+      "node_args": "--harmony"
+    },
+    {
+      "name": "inch-storelink-batch-ep",
+      "script": "./batch/ep-batch.js",
+      "node_args": "--harmony"
+    },
+    {
+      "name": "inch-storelink-batch-linkprice",
+      "script": "./batch/linkprice-batch.js",
+      "node_args": "--harmony"
+    }
+  ]
+}
