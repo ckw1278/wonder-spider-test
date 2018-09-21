@@ -19,10 +19,9 @@ batch.booking('crawler', '00,20,40 * * * * *', async () => {
 
   for(const site of sites) {
     site.hostKey = urlHelper.getHostKeyFromUrl(site.uri);
-    site.ffuid = site.hostKey;
     site.products = await crawler.run(site);
 
-    await epService.generateEp(site.products);
+    //await epService.generateEp(site.products);
     delete site.hostKey;
   }
 });
