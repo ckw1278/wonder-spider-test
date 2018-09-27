@@ -36,7 +36,8 @@
     "sites": [
         {
           "name": "G마켓",
-          "uri": "http://www.gmarket.co.kr"
+          "uri": "http://www.gmarket.co.kr",
+          "reviewUri": "http://item.gmarket.co.kr/Review"
         }
     ]
   }

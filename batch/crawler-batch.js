@@ -14,14 +14,14 @@ const config = require('@wmp-sbd/config');
 
 const epService = require('../lib/ep');
 
-batch.booking('crawler', '00,20,40 * * * * *', async () => {
+batch.booking('crawler', '20 26 * * * *', async () => {
   const sites = config.get('crawling.sites');
 
   for(const site of sites) {
     site.hostKey = urlHelper.getHostKeyFromUrl(site.uri);
     site.products = await crawler.run(site);
-
-    //await epService.generateEp(site.products);
     delete site.hostKey;
+
+    await epService.generateEp(site.products);
   }
 });
