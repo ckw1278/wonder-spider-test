@@ -1,17 +1,4 @@
 {
-  "cpc": {
-    "uri": "https://shopping-api.wonders.app"
-  },
-
-  "inch": {
-    "api": {
-      "uri": "https://api.inch.me"
-    },
-    "papi": {
-      "uri": "https://papi.inch.me"
-    }
-  },
-
   "s3": {
     "region": "ap-northeast-2",
     "bucket": "ep.inch.me",
@@ -40,10 +27,18 @@
     "secretAccessKey" : ""
   },
 
-  "linkprice": {
-    "api": {
-      "uri": "https://api.linkprice.com/ci/product/data/A100627856"
+  "crawling": {
+    "linkPrice": {
+      "api": {
+        "deepLink": "https://api.linkprice.com/ci/service/custom_link_xml?a_id=A100627856&mode=json"
+      }
     },
-    "stores": ["11st", "tmon"]
+    "stores": [
+      {
+        "name": "G마켓",
+        "uri": "http://www.gmarket.co.kr",
+        "reviewUri": "http://item.gmarket.co.kr/Review"
+      }
+    ]
   }
 }

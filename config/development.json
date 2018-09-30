@@ -1,4 +1,4 @@
-{
+{ 
   "s3": {
     "region": "ap-northeast-2",
     "bucket": "ep-s.inch.me",
@@ -33,13 +33,12 @@
         "deepLink": "https://api.linkprice.com/ci/service/custom_link_xml?a_id=A100627856&mode=json"
       }
     },
-    "sites": [
-        {
-          "name": "G마켓",
-          "uri": "http://www.gmarket.co.kr",
-          "reviewUri": "http://item.gmarket.co.kr/Review"
-        }
+    "stores": [
+      {
+        "name": "G마켓",
+        "uri": "http://www.gmarket.co.kr",
+        "reviewUri": "http://item.gmarket.co.kr/Review"
+      }
     ]
   }
-
 }

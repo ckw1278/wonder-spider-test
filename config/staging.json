@@ -1,17 +1,4 @@
-{
-  "cpc": {
-    "uri": "http://13.209.66.232:8080"
-  },
-
-  "inch": {
-    "api": {
-      "uri": "http://api-s.inch.me"
-    },
-    "papi": {
-      "uri": "http://papi-s.inch.me"
-    }
-  },
-
+{ 
   "s3": {
     "region": "ap-northeast-2",
     "bucket": "ep-s.inch.me",
@@ -26,7 +13,7 @@
       "level" : "debug"
     },
     "cloudWatch" : {
-      "level" : "error",
+      "level" : "info",
       "region" : "ap-northeast-2"
     }
   },
@@ -35,15 +22,23 @@
     "region" : "ap-northeast-2"
   },
 
-  "aws" : {
+  "aws": {
     "accessKeyId" : "",
     "secretAccessKey" : ""
   },
 
-  "linkprice": {
-    "api": {
-      "uri": "https://api.linkprice.com/ci/product/data/A100627856"
+  "crawling": {
+    "linkPrice": {
+      "api": {
+        "deepLink": "https://api.linkprice.com/ci/service/custom_link_xml?a_id=A100627856&mode=json"
+      }
     },
-    "stores": ["11st", "tmon"]
+    "stores": [
+      {
+        "name": "G마켓",
+        "uri": "http://www.gmarket.co.kr",
+        "reviewUri": "http://item.gmarket.co.kr/Review"
+      }
+    ]
   }
 }
