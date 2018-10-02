@@ -22,7 +22,7 @@
     "region" : "ap-northeast-2"
   },
 
-  "aws" : {
+  "aws": {
     "accessKeyId" : "",
     "secretAccessKey" : ""
   },
@@ -36,8 +36,7 @@
     "stores": [
       {
         "name": "G마켓",
-        "uri": "http://www.gmarket.co.kr",
-        "reviewUri": "http://item.gmarket.co.kr/Review"
+        "uri": "http://www.gmarket.co.kr"
       }
     ]
   }

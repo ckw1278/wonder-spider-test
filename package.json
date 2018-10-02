@@ -1,5 +1,5 @@
 {
-  "name": "inch-storelink",
+  "name": "wonder-spider",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,16 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wmp-sbd/wonder-ep.git"
+    "url": "git+https://github.com/wmp-sbd/wonder-spider.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wmp-sbd/wonder-ep/issues"
   },
-  "homepage": "https://github.com/wmp-sbd/wonder-ep#readme",
+  "homepage": "https://github.com/wmp-sbd/wonder-spider#readme",
   "dependencies": {
-    "@wmp-sbd/browser": "^1.1.81",
+    "@wmp-sbd/browser": "^1.1.86",
     "@wmp-sbd/config": "^1.1.5",
     "@wmp-sbd/defer": "^1.0.1",
     "@wmp-sbd/im": "^0.1.7",
@@ -32,6 +32,7 @@
     "cron": "^1.3.0",
     "iconv": "^2.3.0",
     "request": "^2.87.0",
+    "request-promise": "^4.2.2",
     "underscore": "^1.9.1"
   },
   "devDependencies": {
