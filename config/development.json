@@ -37,7 +37,12 @@
       {
         "name": "G마켓",
         "uri": "http://www.gmarket.co.kr",
-        "reviewUri": "http://item.gmarket.co.kr/Review"
+        "reviewUri": "http://item.gmarket.co.kr/Review" ,
+        "epType": {
+          "hotdeal":  {
+            "uris": ["http://corners.gmarket.co.kr/SuperDeals"]
+          }
+        }
       }
     ]
   }
