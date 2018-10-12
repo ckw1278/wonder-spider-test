@@ -1,8 +1,8 @@
-{
+{ 
   "s3": {
     "region": "ap-northeast-2",
-    "bucket": "ep.inch.me",
-    "endpoint" : "http://ep.inch.me/etl/"
+    "bucket": "ep-s.inch.me",
+    "endpoint" : "http://ep-s.inch.me/etl/"
   },
 
   "logger" : {
@@ -13,7 +13,7 @@
       "level" : "debug"
     },
     "cloudWatch" : {
-      "level" : "error",
+      "level" : "info",
       "region" : "ap-northeast-2"
     }
   },
@@ -42,7 +42,27 @@
           "hotdeal":  {
             "uris": ["http://corners.gmarket.co.kr/SuperDeals"]
           }
-        }
+        },
+        "existProductApi": false,
+        "activated": false
+      },
+      {
+        "name": "티몬",
+        "uri": "http://www.ticketmonster.co.kr",
+        "api":  {
+          "product": "http://www.ticketmonster.co.kr/api/detail/direct/v1/dealinfoapi/api/deals",
+          "plan": "http://www.ticketmonster.co.kr/api/plan/deals?platFormType=PC&page=1&size=1000"
+        },
+        "epType": {
+          "hotdeal":  {
+            "uris": [
+              "http://www.ticketmonster.co.kr/planning/PLAN_DCXfbM9PDF", 
+              "http://www.ticketmonster.co.kr/planning/PLAN_TKiE6aGegp"
+            ]
+          }
+        },
+        "existProductApi": true,
+        "activated": true 
       }
     ]
   }

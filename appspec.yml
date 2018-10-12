@@ -6,7 +6,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/inch-storelink
+    destination: /home/ec2-user/wonder-spider
 permissions:
   - object: /home/ec2-user
     owner: ec2-user

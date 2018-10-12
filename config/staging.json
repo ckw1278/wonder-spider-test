@@ -42,7 +42,27 @@
           "hotdeal":  {
             "uris": ["http://corners.gmarket.co.kr/SuperDeals"]
           }
-        }
+        },
+        "existProductApi": false,
+        "activated": false
+      },
+      {
+        "name": "티몬",
+        "uri": "http://www.ticketmonster.co.kr",
+        "api":  {
+          "product": "http://www.ticketmonster.co.kr/api/detail/direct/v1/dealinfoapi/api/deals",
+          "plan": "http://www.ticketmonster.co.kr/api/plan/deals?platFormType=PC&page=1&size=1000"
+        },
+        "epType": {
+          "hotdeal":  {
+            "uris": [
+              "http://www.ticketmonster.co.kr/planning/PLAN_DCXfbM9PDF", 
+              "http://www.ticketmonster.co.kr/planning/PLAN_TKiE6aGegp"
+            ]
+          }
+        },
+        "existProductApi": true,
+        "activated": true 
       }
     ]
   }
